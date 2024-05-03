@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from prediction import predict
-st.title('PdM Web App') 
-st.markdown('To predict machine health instantly.')
+st.title('Predictive Maintenance Web App') 
+st.markdown('To predict machine health of a wood cutting machine instantly.')
 air = st.number_input('Air Temperature [K]:') 
 process = st.number_input('Process Temperature [K]:') 
 rotation = st.number_input('Rotational Speed[rpm]:') 
